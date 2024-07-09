@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.heading{
+    color: azure; 
+    padding: 2vw;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(51, 46, 47);
+    border: 2px solid ;
+    position: fixed;
+    width: 100vw;
+    color: white;
+    font-size: larger;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: row;
+    list-style: none;
+}
+.navbar ul li{
+    margin-top: 20px;
+    font-size: large;
+}
+.navbar ul .fabrics{
+    background-color: transparent;
+    font-size: x-large;
+    font-weight: bold;
+    color: hsl(75, 94%, 57%);
+   
+}
+.navbar ul .fabrics:hover{
+    color:white;
+    font-size: x-large;
+    font-weight: bolder;
+    cursor:none;
+}
+.home:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    color: hsl(75, 94%, 57%);
+}
+.main{
+    background-image: url(https://th.bing.com/th/id/OIP.xWcJ5OHHEXgubPYDt7SwaAHaFj?rs=1&pid=ImgDetMain);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    
+}
+.main1{
+
+    background-image: url(https://th.bing.com/th/id/R.98a8f308c7e58da8f16dae33ae56557d?rik=JF7%2fBlQk7w0WVA&pid=ImgRaw&r=0);
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.main2{
+    background-color:hsl(0, 0%, 12%);
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6vw;
+   
+}
+.main .headingbox{
+    width: 65vw;
+    height: 40vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    text-align: center;
+}
+.main .headingbox:hover{
+    background: none;
+    font-size: xx-large;
+    font-weight: 1100;
+    color: hsl(75, 94%, 57%);
+    border: 5px dotted hsl(75, 94%, 57%);
+}
+.subbox{
+    width: 25vw;
+    height: 40vh;
+    background-color: aliceblue;
+}
+.pic{
+    border-radius: 18px;
+    box-sizing: border-box;
+    border: 4px solid black ;
+}
+.pic:hover{
+    width: 35vw;
+    height: 60vh;
+}
+.box1 .pic{
+    background-image: url(https://th.bing.com/th/id/OIP.UIMscbz_nABe5lE-uFv8qAAAAA?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+.box1 .pic2{
+    background-image: url(https://th.bing.com/th/id/R.8670d1bf8f63080690065040d1eeb33d?rik=bgKAU%2bN3L1XXrg&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+.box1 .pic3{
+    background-image: url(https://i.pinimg.com/originals/50/97/d6/5097d65e04d6d0a5ba61d1ae5e41dba3.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+.profile{
+    height: max-content;
+    background: none;
+}
+
+
+
+.main11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.father{
+    background-color: hsl(0, 3%, 7%);
+    width: 300px;
+    height: max-content;
+    padding: 10px;
+    border-radius: 15px;
+}
+.box11{
+    display: flex;
+    justify-content: center;
+}
+.box11 .profile{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+}
+.profile img{
+    height: 86px;
+    width: 77px;
+    border-radius: 60%;
+}
+@media screen and (min-width:375px) {
+ 
+    .father{
+        width: 300px;
+    }
+    .subbox{
+        width: 28vw;
+        height: 26vh;
+    }
+    .main .headingbox:hover{
+        background: none;
+        font-size: large;
+        font-weight: 500;
+        color: hsl(75, 94%, 57%);
+        border: 2px dotted hsl(75, 94%, 57%);
+    }
+    .profile{
+        width: 300px;
+    }
+    .father{
+        height: max-content;
+        margin-top: -200px;
+    }
+    .main2{
+        height: 140vh;
+    }
+    .pic:hover{
+        width: 50vw;
+        height: 50vh;
+    }
+}
+.text{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.text h5{
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+   
+}
+.text h6{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.github{
+    background-color: hsl(0, 0%, 12%);
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    border-radius: 8px;
+    color: rgb(255, 252, 252);
+}
+.github a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 254, 254);
+    background-color: transparent;
+    text-decoration: none;
+}
+.github:hover{
+    background-color:  hsl(75, 94%, 57%);
+    color: black;
+    font-weight: bolder;
+}
+.github a:hover{
+    background-color:  hsl(75, 94%, 57%);
+    color: black;
+    font-weight: bolder;
+}
+.footer{
+    background-color: hsl(0, 0%, 12%);
+    color:hsl(75, 94%, 57%);;
+    text-align: center;
+}
+.footer h1{
+    margin-top: -110px;
+}
